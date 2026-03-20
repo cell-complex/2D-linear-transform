@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background: #111;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+canvas {
+    background: #fff;
+    border-left: 100px solid #111;
+    margin: 0px;
+}
+
+.rightBox {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    padding: 30px;
+    padding-top: 60px;
+}
+
+.btnBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* ボタン間の間隔を均等に */
+    align-items: center;
+    /* 縦中央揃え */
+    width: 100%;
+    gap: 10px;
+    /* ボタン間の隙間 */
+    padding: 0 10px;
+    /* 左右に余白を追加 */
+}
+
+button {
+    flex: 1;
+    /* ボタンを均等に広げる */
+    padding: 10px;
+    height: 40px;
+    font-family: monospace;
+}
